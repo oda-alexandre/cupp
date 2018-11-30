@@ -1,4 +1,4 @@
-# cupp
+# CUPP
 
 ![cupp](https://raw.githubusercontent.com/oda-alexandre/cupp/master/img/logo-cupp.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/cupp/master/img/logo-docker.png)
 
