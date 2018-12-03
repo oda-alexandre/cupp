@@ -10,7 +10,7 @@ RUN useradd -d /home/cupp -m cupp && \
 passwd -d cupp && \
 adduser cupp sudo
 
-RUN RUN sudo apt-get --purge autoremove -y && \
+RUN sudo apt-get --purge autoremove -y && \
 sudo apt-get autoclean -y && \
 sudo rm /etc/apt/sources.list && \
 sudo rm -rf /var/cache/apt/archives/* && \
