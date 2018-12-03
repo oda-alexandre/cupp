@@ -30,7 +30,8 @@ Installer [Docker](https://www.docker.com)
 ## INSTALLATION
 
 ```
-docker run -ti --name cupp -v ${HOME}:/home/cupp alexandreoda/cupp /bin/bash
+mkdir $HOME/cupp
+docker run -ti --name cupp -v ${HOME}/cupp:/home/cupp alexandreoda/cupp /bin/bash
 ```
 
 ## LICENSE
