@@ -31,7 +31,7 @@ Installer [Docker](https://www.docker.com)
 
 ```
 mkdir $HOME/wordlists
-docker run -ti --name cupp -v ${HOME}:/home/cupp alexandreoda/cupp
+docker run -ti --name cupp -v ${HOME}/wordlists:/home/cupp alexandreoda/cupp
 ```
 
 
