@@ -1,25 +1,32 @@
 # CUPP
 
-![cupp](https://raw.githubusercontent.com/oda-alexandre/cupp/master/img/logo-cupp.png) ![docker](https://raw.githubusercontent.com/oda-alexandre/cupp/master/img/logo-docker.png)
+[![dockeri.co](https://dockeri.co/image/alexandreoda/cupp)](https://hub.docker.com/r/alexandreoda/cupp)
 
 
 ## INDEX
 
-- [Build Docker](#BUILD)
+- [Badges](#BADGES)
 - [Introduction](#INTRODUCTION)
 - [Prerequis](#PREREQUIS)
 - [Installation](#INSTALLATION)
 - [License](#LICENSE)
 
 
-## BUILD DOCKER
+## BADGES
 
-[![cupp docker build](https://img.shields.io/docker/build/alexandreoda/cupp.svg)](https://hub.docker.com/r/alexandreoda/cupp)
+[![version](https://images.microbadger.com/badges/version/alexandreoda/cupp.svg)](https://microbadger.com/images/alexandreoda/cupp)
+[![size](https://images.microbadger.com/badges/image/alexandreoda/cupp.svg)](https://microbadger.com/images/alexandreoda/cupp")
+[![build](https://img.shields.io/docker/build/alexandreoda/cupp.svg)](https://hub.docker.com/r/alexandreoda/cupp)
+[![automated](https://img.shields.io/docker/automated/alexandreoda/cupp.svg)](https://hub.docker.com/r/alexandreoda/cupp)
 
 
 ## INTRODUCTION
 
-Ce repository contient le fichier Dockerfile de [cupp](https://github.com/Mebus/cupp) pour [docker](https://www.docker.com), mis à jour automatiquement dans le [docker hub](https://hub.docker.com/r/alexandreoda/cupp/) public.
+Ce repository contient le fichier Dockerfile de
+
+- [cupp](https://github.com/Mebus/cupp)
+
+Mis à jour automatiquement dans le [docker hub public](https://hub.docker.com/r/alexandreoda/cupp/).
 
 
 ## PREREQUIS
