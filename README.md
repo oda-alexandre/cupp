@@ -1,6 +1,6 @@
 # CUPP
 
-[![dockeri.co](https://dockeri.co/image/alexandreoda/cupp)](https://hub.docker.com/r/alexandreoda/cupp)
+<img src="https://haxf4rall.com/wp-content/uploads/2018/01/CUPP.jpg" />
 
 
 ## INDEX
@@ -14,10 +14,7 @@
 
 ## BADGES
 
-[![version](https://images.microbadger.com/badges/version/alexandreoda/cupp.svg)](https://microbadger.com/images/alexandreoda/cupp)
-[![size](https://images.microbadger.com/badges/image/alexandreoda/cupp.svg)](https://microbadger.com/images/alexandreoda/cupp")
-[![build](https://img.shields.io/docker/build/alexandreoda/cupp.svg)](https://hub.docker.com/r/alexandreoda/cupp)
-[![automated](https://img.shields.io/docker/automated/alexandreoda/cupp.svg)](https://hub.docker.com/r/alexandreoda/cupp)
+[![pipeline status](https://gitlab.com/oda-alexandre/cupp/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/cupp/commits/master)
 
 
 ## INTRODUCTION
