@@ -25,7 +25,7 @@ Docker image of :
 
 Continuous integration on :
 
-- [gitlab](https://gitlab.com/oda-alexandre/android-studio/pipelines)
+- [gitlab](https://gitlab.com/oda-alexandre/cupp/pipelines)
 
 automatically updated on :
 
