@@ -1,5 +1,7 @@
+# IMAGE TO USE
 FROM debian:stretch-slim
 
+# MAINTAINER
 MAINTAINER https://www.oda-alexandre.com/
 
 # VARIABLES
