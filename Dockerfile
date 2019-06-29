@@ -32,4 +32,4 @@ USER ${USER}
 WORKDIR /home/${USER}
 
 # START THE CONTAINER
-CMD /bin/bash
+CMD /bin/bash \
