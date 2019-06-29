@@ -6,28 +6,28 @@ MAINTAINER https://www.oda-alexandre.com/
 ENV USER cupp
 ENV DEBIAN_FRONTEND noninteractive
 
-# INSTALLATION DE L'APPLICATION
+# INSTALL APP
 RUN apt-get update && apt-get install --no-install-recommends -y \
 sudo \
 cupp && \
 
-# NETTOYAGE
+# CLEANING
 apt-get --purge autoremove -y && \
 apt-get autoclean -y && \
 rm /etc/apt/sources.list && \
 rm -rf /var/cache/apt/archives/* && \
 rm -rf /var/lib/apt/lists/* && \
 
-# AJOUT UTILISATEUR
+# ADD USER
 useradd -d /home/${USER} -m ${USER} && \
 passwd -d ${USER} && \
 adduser ${USER} sudo
 
-# SELECTION UTILISATEUR
+# SELECT USER
 USER ${USER}
 
-# SELECTION ESPACE DE TRAVAIL
+# SELECT WORKING SPACE
 WORKDIR /home/${USER}
 
-# COMMANDE AU DEMARRAGE DU CONTENEUR
+# START THE CONTAINER
 CMD /bin/bash
