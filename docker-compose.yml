@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  cupp:
+    container_name: cupp
+    image: alexandreoda/cupp
+    restart: "no"
+    network_mode: none
+    privileged: false
+    volumes:
+      - "${HOME}:/home/cupp"
