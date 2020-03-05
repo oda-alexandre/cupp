@@ -38,7 +38,8 @@ Use [docker](https://www.docker.com)
 
 ### DOCKER RUN
 
-```docker run -ti --rm --name cupp -v ${HOME}:/home/cupp alexandreoda/cupp
+```\
+docker  run -ti --rm --name cupp -v ${HOME}:/home/cupp alexandreoda/cupp
 ```
 
 ### DOCKER COMPOSE
