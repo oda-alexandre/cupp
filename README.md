@@ -1,7 +1,5 @@
 # CUPP
 
-## INDEX
-
 - [CUPP](#cupp)
   - [INDEX](#index)
   - [BADGES](#badges)
@@ -34,7 +32,7 @@ Automatically updated on :
 
 Use [docker](https://www.docker.com)
 
-## INSTALL
+## BUILD
 
 ### DOCKER RUN
 
